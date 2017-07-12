@@ -11,15 +11,15 @@
  * @link https://packagist.org/packages/krdinesh/laravel-oauth2-greenhouse Packagist
  * @link https://github.com/krdinesh/laravel-oauth2-greenhouse GitHub
  */
-namespace Krdinesh\Laravel\OAuth2\GreenHouse;
+namespace Krdinesh\Laravel\OAuth2\Greenhouse;
 
 use Illuminate\Support\ServiceProvider;
-use Krdinesh\OAuth2\Client\Provider\GreenHouse as KrDineshGreenHouse;
+use Krdinesh\OAuth2\Client\Provider\GreenHouse as KrGreenhouse;
 /**
- * The GreenHouseServiceProvider provides easy access to league/oauth2-greenhouse
+ * The GreenhouseServiceProvider provides easy access to league/oauth2-greenhouse
  * for use with Laravel
  */
-class GreenHouseServiceProvider extends ServiceProvider
+class GreenhouseServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.
@@ -45,8 +45,8 @@ class GreenHouseServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind(KrDineshGreenHouse::class, function ($app) {
-            return new KrDineshGreenHouse([
+        $this->app->bind(KrGreenhouse::class, function ($app) {
+            return new KrGreenhouse([
                 'clientId' => config('greenhouse.clientId'),
                 'clientSecret' => config('greenhouse.clientSecret'),
                 'redirectUri' => config('greenhouse.redirectUri'),
@@ -61,7 +61,7 @@ class GreenHouseServiceProvider extends ServiceProvider
     public function provides()
     {
         return [
-            KrDineshGreenHouse::class
+            KrGreenhouse::class
         ];
     }
 }

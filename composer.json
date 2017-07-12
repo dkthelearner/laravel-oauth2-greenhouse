@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Krdinesh\\Laravel\\OAuth2\\GreenHouse\\": "src/"
+            "Krdinesh\\Laravel\\OAuth2\\Greenhouse\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Krdinesh\\Laravel\\OAuth2\\GreenHouse\\Test\\": "tests/"
+            "Krdinesh\\Laravel\\OAuth2\\Greenhouse\\Test\\": "tests/"
         }
     }
 }

@@ -10,15 +10,15 @@
  * @link https://packagist.org/packages/krdinesh/laravel-oauth2-greenhouse Packagist
  * @link https://github.com/krdinesh/laravel-oauth2-greenhouse GitHub
  */
-namespace Ramsey\Laravel\OAuth2\Greenhouse\Facades;
+namespace Krdinesh\Laravel\OAuth2\Greenhouse\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Krdinesh\OAuth2\Client\Provider\GreenHouse as KrDineshGreenHouse;
+use Krdinesh\OAuth2\Client\Provider\GreenHouse as KrGreenhouse;
 /**
- * Provides a static accessor to the GreenHouseServiceProvider through
+ * Provides a static accessor to the GreenhouseServiceProvider through
  * a named alias in Laravel
  */
-class GreenHouse extends Facade
+class Greenhouse extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -27,6 +27,6 @@ class GreenHouse extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return KrDineshGreenHouse::class;
+        return KrGreenhouse::class;
     }
 }
