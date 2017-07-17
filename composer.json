@@ -13,7 +13,7 @@
     "require": {
         "php": "^5.5.9",
         "illuminate/support": "^5.2",
-        "krdinesh/oauth2-greenhouse": "^1.0"
+        "krdinesh/oauth2-greenhouse": "1.0.1"
     },
     "require-dev": {
         "orchestra/testbench": "^3.2",
