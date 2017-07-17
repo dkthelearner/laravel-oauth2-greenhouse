@@ -1,5 +1,4 @@
 
-
 # krdinesh/laravel-oauth2-greenhouse
 
 krdinesh/laravel-oauth2-greenhouse is a [Laravel 5.2](https://laravel.com/) service provider for [krdinesh/oauth2-greenhouse](https://github.com/krdinesh/oauth2-greenhouse).
