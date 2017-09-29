@@ -2,16 +2,14 @@
     "name": "krdinesh/laravel-oauth2-greenhouse",
     "description": "A Laravel 5.2 service provider for league/oauth2-greenhouse",
     "type": "library",
-    "authors": [
-        {
-            "name": "krdinesh",
-            "email": "kumardinesh0521@gmail.com"
-        }
-    ],
-    "keywords": ["laravel", "oauth2", "greenhouse","laravel 5.2"],
+    "authors": [{
+        "name": "krdinesh",
+        "email": "kumardinesh0521@gmail.com"
+    }],
+    "keywords": ["laravel", "oauth2", "greenhouse", "laravel 5.2"],
     "license": "MIT",
     "require": {
-        "php": "^5.5.9",
+        "php": ">=5.5.9",
         "illuminate/support": "^5.2",
         "krdinesh/oauth2-greenhouse": "^1.0"
     },
