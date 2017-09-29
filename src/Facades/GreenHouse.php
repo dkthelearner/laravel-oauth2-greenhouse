@@ -13,7 +13,8 @@
 namespace Krdinesh\Laravel\OAuth2\Greenhouse\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Krdinesh\OAuth2\Client\Provider\GreenHouse as KrGreenhouse;
+use Krdinesh\OAuth2\Client\Provider\Greenhouse as KrGreenhouse;
+
 /**
  * Provides a static accessor to the GreenhouseServiceProvider through
  * a named alias in Laravel
@@ -22,7 +23,6 @@ class Greenhouse extends Facade
 {
     /**
      * Get the registered name of the component.
-     *
      * @return string
      */
     protected static function getFacadeAccessor()
