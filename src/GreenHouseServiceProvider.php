@@ -15,6 +15,7 @@ namespace Krdinesh\Laravel\OAuth2\Greenhouse;
 
 use Illuminate\Support\ServiceProvider;
 use Krdinesh\OAuth2\Client\Provider\GreenHouse as KrGreenhouse;
+
 /**
  * The GreenhouseServiceProvider provides easy access to league/oauth2-greenhouse
  * for use with Laravel
