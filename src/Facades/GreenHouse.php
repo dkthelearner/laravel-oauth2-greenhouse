@@ -19,7 +19,7 @@ use Krdinesh\OAuth2\Client\Provider\Greenhouse as KrGreenhouse;
  * Provides a static accessor to the GreenhouseServiceProvider through
  * a named alias in Laravel
  */
-class Greenhouse extends Facade
+class Greenhfouse extends Facade
 {
     /**
      * Get the registered name of the component.

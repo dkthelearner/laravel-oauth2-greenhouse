@@ -20,7 +20,7 @@ use Krdinesh\OAuth2\Client\Provider\Greenhouse as KrGreenhouse;
  * The GreenhouseServiceProvider provides easy access to league/oauth2-greenhouse
  * for use with Laravel
  */
-class GreenhouseServiceProvider extends ServiceProvider
+class GreenhfouseServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.
