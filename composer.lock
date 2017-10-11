@@ -409,16 +409,16 @@
         },
         {
             "name": "krdinesh/oauth2-greenhouse",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/krdinesh/oauth2-greenhouse.git",
-                "reference": "98c419e3154af333e3c88dc651500e6d5c5ef26d"
+                "reference": "ce5cd2c9ca10116d3714b0fb47a684776e59a76d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/krdinesh/oauth2-greenhouse/zipball/98c419e3154af333e3c88dc651500e6d5c5ef26d",
-                "reference": "98c419e3154af333e3c88dc651500e6d5c5ef26d",
+                "url": "https://api.github.com/repos/krdinesh/oauth2-greenhouse/zipball/ce5cd2c9ca10116d3714b0fb47a684776e59a76d",
+                "reference": "ce5cd2c9ca10116d3714b0fb47a684776e59a76d",
                 "shasum": ""
             },
             "require": {
@@ -454,7 +454,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2017-07-17T17:09:38+00:00"
+            "time": "2017-10-11T04:57:00+00:00"
         },
         {
             "name": "laravel/framework",
